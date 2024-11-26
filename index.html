@@ -3,42 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TOFFEE LIVE TV— Powered by Live Stream</title>
+  <title>TOFFEE LIVE TV - Your Entertainment Hub</title>
   <link rel="icon" type="image/x-icon" href="https://play-lh.googleusercontent.com/6f-KNzrLd72Upq7sqhMcMtZS-vCyb-21-J1Pr1kLHXbxr_dePs2O7vP7hAgMk8dxRw=w240-h480-rw">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <meta name="google-site-verification" content="keVTh4CE7NNuJ2uokcjoiAlHfUlakVP7ThDhRKijtCc" />
   <!-- Primary Meta Tags -->
-  <title>LIVE STREAM BD — Powered by Live Stream</title>
-  <meta name="title" content="LIVE STREAM BD — Powered by Live Stream" />
-  <meta name="description" content="Watch live tv and sports from bangladesh for free of cost..." />
+  <title>TOFFEE LIVE TV</title>
+  <meta name="title" content="TOFFEE LIVE TV - Your Entertainment Hub" />
+  <meta name="description" content="Experience the best of live TV and sports with TOFFEE. Watch your favorite channels and stay entertained anytime, anywhere." />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://livestreambd.netlify.app/" />
-  <meta property="og:title" content="LIVE STREAM BD — Powered by Live Stream" />
-  <meta property="og:description" content="Watch live tv and sports from bangladesh for free of cost..." />
-  <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+  <meta property="og:url" content="https://toffee-live-tv.com" />
+  <meta property="og:title" content="TOFFEE LIVE TV - Your Entertainment Hub" />
+  <meta property="og:description" content="Experience the best of live TV and sports with TOFFEE. Watch your favorite channels and stay entertained anytime, anywhere." />
+  <meta property="og:image" content="https://toffee-live-tv.com/assets/images/social-media-image.jpg" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://livestreambd.netlify.app/" />
-  <meta property="twitter:title" content="LIVE STREAM BD — Powered by Live Stream" />
-  <meta property="twitter:description" content="Watch live tv and sports from bangladesh for free of cost..." />
-  <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+  <meta property="twitter:url" content="https://toffee-live-tv.com" />
+  <meta property="twitter:title" content="TOFFEE LIVE TV - Your Entertainment Hub" />
+  <meta property="twitter:description" content="Experience the best of live TV and sports with TOFFEE. Watch your favorite channels and stay entertained anytime, anywhere." />
+  <meta property="twitter:image" content="https://toffee-live-tv.com/assets/images/social-media-image.jpg" />
 
   <!-- Include Video.js CSS -->
   <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
 
   <style>
     /* General styles */
-    body, html {
+    body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: black;
+      font-family: 'Poppins', sans-serif;
+      background-color: #1a0920;
       color: white;
-    }
-    .min-h-screen {
-      min-height: 100vh;
     }
 
     /* Header */
@@ -49,14 +47,17 @@
       align-items: center;
       justify-content: space-between;
     }
+
     .logo-image {
       height: 40px;
     }
+
     .header-actions {
       display: flex;
       align-items: center;
       gap: 1rem;
     }
+
     .sign-in-btn {
       background-color: #ff4081;
       color: white;
@@ -64,73 +65,70 @@
       padding: 0.5rem 1.5rem;
       border-radius: 9999px;
       cursor: pointer;
+      font-weight: 500;
+      transition: background-color 0.3s;
     }
+
     .sign-in-btn:hover {
       background-color: #f50057;
     }
 
     /* Content */
     .content {
-      padding: 1rem;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
+
     .section-title {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: bold;
       margin-bottom: 1.5rem;
+      text-align: center;
     }
+
     .channels-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 1200px;
     }
+
     .channel {
-      width: 22%;
       position: relative;
+      width: 100%;
       aspect-ratio: 1 / 1;
-      border-radius: 9999px;
+      border-radius: 10px;
       overflow: hidden;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      background: linear-gradient(135deg, #7b1fa2, #ff4081);
+      background-color: #222;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.75rem;
-      font-weight: bold;
-      text-align: center;
       cursor: pointer;
+      transition: transform 0.3s;
     }
+
+    .channel:hover {
+      transform: scale(1.05);
+    }
+
     .channel img {
       width: 100%;
       height: auto;
-    }
-    .channel-quality {
-      position: absolute;
-      bottom: 4px;
-      right: 4px;
-      font-size: 0.5rem;
+      border-radius: 10px;
     }
 
-    /* Bottom Navigation */
-    .bottom-nav {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: #1a0920;
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    .nav-items {
-      display: flex;
-      justify-content: space-around;
-      padding: 1rem;
-    }
-    .nav-item {
-      color: rgba(255, 255, 255, 0.6);
-      text-decoration: none;
-      text-align: center;
-    }
-    .nav-item:hover {
+    .channel-quality {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      background-color: rgba(0, 0, 0, 0.7);
       color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
     }
 
     /* Responsive Video Player */
@@ -141,6 +139,7 @@
       position: relative;
       padding-top: 56.25%; /* 16:9 Aspect Ratio */
     }
+
     .video-js {
       position: absolute;
       top: 0;
@@ -153,68 +152,82 @@
     .footer {
       background-color: #1a0920;
       color: white;
-      padding: 2rem 1rem;
+      padding: 2rem;
       text-align: center;
       margin-top: auto;
     }
+
     .footer-content {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 2rem;
+      gap: 1.5rem;
     }
+
     .footer-section {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
+
     .footer-section h4 {
       margin-bottom: 1rem;
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
+
     .footer-links {
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
     }
+
     .footer-links a {
       color: white;
       text-decoration: none;
       font-size: 0.9rem;
+      transition: color 0.3s;
     }
+
     .footer-links a:hover {
-      text-decoration: underline;
+      color: #ff4081;
     }
+
     .store-links img {
       width: 120px;
       margin: 0.5rem;
     }
+
     .social-icons {
       display: flex;
       gap: 1rem;
     }
+
     .social-icons a {
       color: white;
       font-size: 1.5rem;
+      transition: color 0.3s;
     }
+
     .social-icons a:hover {
       color: #ff4081;
     }
+
     .copyright {
-      margin-bottom: 30px;
+      margin-bottom: 10px;
       font-size: 0.9rem;
       color: rgba(255, 255, 255, 0.6);
     }
   </style>
 </head>
-<body class="min-h-screen bg-black text-white">
+<body>
   <!-- Header -->
   <header class="header">
     <div class="logo">
       <img src="https://toffeelive.com/logo.svg" alt="Toffee Logo" width="300" height="40" class="logo-image">
     </div>
     <div class="header-actions">
+      <button class="sign-in-btn">Sign In</button>
     </div>
   </header>
 
@@ -225,89 +238,65 @@
 
   <main class="content">
     <div class="col-md-12">
-      <style>
-        .notice-movies {
-          margin-top: 3px;
-          background: #1a0920;
-          color: #F781F3;
-          position: relative;
-          padding: 10px;
-          overflow: hidden;
-          font-family: CharuChandanHardStroke;
-          border-radius: 7px;
-        }
-        .notice-movies::before {
-          content: '';
-          position: absolute;
-          border-left: 17px solid CharuChandan3D;
-          border-bottom: 17px solid CharuChandan3D;
-          border-top: 17px solid transparent;
-          border-right: 17px solid transparent;
-          left: 98px;
-          top: 0;
-          z-index: 1;
-        }
-        .notice-movies::after {
-          content: 'Notice:';
-          position: absolute;
-          height: 100%;
-          padding: 0 6px;
-          line-height: 43px;
-          background: #1C1C1C;
-          color: #FE2E64;
-          font-family: fantasy;
-          font-weight: 600;
-          left: 0;
-          top: 0;
-        }
-      </style>
-      <link>
-      <center>
-        <marquee class="notice-movies" scrollamount="5"> <font size="4vw"> টিভি চ্যানেল প্লে হতে কিছুটা সময় নিতে পারে, সেজন্য অত্যন্ত দুঃখিত । আমাদের সাথে থাকার জন্য ধন্যবাদ । </marquee>
-      </center>
-    </div>
+      <div class="notice-movies">
+        <marquee scrollamount="5"> <font size="4vw"> টিভি চ্যানেল প্লে হতে কিছুটা সময় নিতে পারে, সেজন্য অত্যন্ত দুঃখিত । আমাদের সাথে থাকার জন্য ধন্যবাদ । </marquee>
+      </div>
 
-    <!-- Toffee Special -->
-    <section>
-      <br>
-      <br>
-      <center>
+      <!-- Toffee Special -->
+      <section>
         <h2 class="section-title">TOFFEE SPECIAL</h2>
-      </center>
-      <br>
-      <br>
-      <div class="channels-grid">
-        <!-- Toffee Channels -->
-        <div class="channels">
-          <h3 class="section-title">Toffee Channels</h3>
-          <div class="channels-grid">
-            <div class="channel" data-url="https://bdixtv24.site/toffee/live.php?id=9cc74d11cfd0&e=.m3u8">
-              <img src="https://images.toffeelive.com/images/program/19779/logo/240x240/mobile_logo_975410001725875598.png" alt="Toffee Sports">
-              <span class="channel-quality">HD</span>
+        <div class="channels-grid">
+          <!-- Toffee Channels -->
+          <div class="channels">
+            <h3 class="section-title">Toffee Channels</h3>
+            <div class="channels-grid">
+              <div class="channel" data-url="https://bdixtv24.site/toffee/live.php?id=9cc74d11cfd0&e=.m3u8">
+                <img src="https://images.toffeelive.com/images/program/19779/logo/240x240/mobile_logo_975410001725875598.png" alt="Toffee Sports">
+                <span class="channel-quality">HD</span>
+              </div>
+              <div class="channel" data-url="https://bdixtv24.site/toffee/live.php?id=b1ba8efdd99d&e=.m3u8">
+                <img src="https://images.toffeelive.com/images/program/44878/logo/240x240/mobile_logo_764950001725875605.png" alt="Toffee Drama's">
+                <span class="channel-quality">HD</span>
+              </div>
+              <div class="channel" data-url="https://bdixtv24.site/toffee/live.php?id=99cf56ce2888&e=.m3u8">
+                <img src="https://images.toffeelive.com/images/program/2708/logo/240x240/mobile_logo_724353001725875591.png" alt="Toffee Movie's">
+                <span class="channel-quality">HD</span>
+              </div>
+              <!-- Add more channels here -->
             </div>
-            <div class="channel" data-url="https://bdixtv24.site/toffee/live.php?id=b1ba8efdd99d&e=.m3u8">
-              <img src="https://images.toffeelive.com/images/program/44878/logo/240x240/mobile_logo_764950001725875605.png" alt="Toffee Drama's">
-              <span class="channel-quality">HD</span>
-            </div>
-            <!-- Add more channels here -->
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+  </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-content">
-        <div class="footer-section">
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About Us</h4>
+        <p>TOFFEE LIVE TV is your ultimate destination for live TV and sports. Enjoy a seamless streaming experience with us.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>Email: info@toffee-live-tv.com</p>
+        <p>Phone: +880 123 456 7890</p>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
-      <div class="footer-content">
-        <img src="https://toffeelive.com/logo.svg" alt="Toffee Logo" width="120">
-        <div>Watch Live TV Now Anytime, Anywhere on BDIPTV. মোবাইল, কম্পিউটার, ট্যাবে দেখুন লাইভ টিভি, মুভি, নাটক। সকল বাংলা এবং কলকাতার বাংলা চ্যানেল, জনপ্রিয় হিন্দি ইংলিশ ক্রিকেট ফুটবল চ্যানেল।</div>
-        <p class="copyright">Copyright © 2024 TOFFEE. All rights reserved.<br>Power By Live Stream<br><br>Developed By Likhon Sheikh</p>
-      </div>
-    </footer>
-  </main>
+    </div>
+    <div class="footer-content">
+      <img src="https://toffeelive.com/logo.svg" alt="Toffee Logo" width="120">
+      <div>Watch Live TV Now Anytime, Anywhere on BDIPTV. মোবাইল, কম্পিউটার, ট্যাবে দেখুন লাইভ টিভি, মুভি, নাটক। সকল বাংলা এবং কলকাতার বাংলা চ্যানেল, জনপ্রিয় হিন্দি ইংলিশ ক্রিকেট ফুটবল চ্যানেল।</div>
+      <p class="copyright">Copyright © 2024 TOFFEE. All rights reserved.<br>Power By Live Stream<br><br>Developed By Likhon Sheikh</p>
+    </div>
+  </footer>
 
   <!-- Include Video.js JavaScript -->
   <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
