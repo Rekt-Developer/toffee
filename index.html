@@ -3,184 +3,333 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Primary Meta Tags -->
-  <title>TOFFEE LIVE TV — Watch Live Streaming Channels</title>
-  <meta name="title" content="TOFFEE LIVE TV — Watch Live Streaming Channels">
-  <meta name="description" content="Stream your favorite live TV channels instantly with TOFFEE. Watch a wide range of entertainment, news, sports, and more online.">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://toffeelive.com/">
-  <meta property="og:title" content="TOFFEE LIVE TV — Watch Live Streaming Channels">
-  <meta property="og:description" content="Stream your favorite live TV channels instantly with TOFFEE. Watch a wide range of entertainment, news, sports, and more online.">
-  <meta property="og:image" content="https://toffeelive.com/logo-og.png">
-  
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://toffeelive.com/">
-  <meta property="twitter:title" content="TOFFEE LIVE TV — Watch Live Streaming Channels">
-  <meta property="twitter:description" content="Stream your favorite live TV channels instantly with TOFFEE. Watch a wide range of entertainment, news, sports, and more online.">
-  <meta property="twitter:image" content="https://toffeelive.com/logo-og.png">
-  
-  <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="https://play-lh.googleusercontent.com/6f-KNzrLd72Upq7sqhcMtZS-vCyb-21-J1Pr1kLHXbxr_dePs2O7vP7hAgMk8dxRw=w240-h480-rw">
-  <link rel="apple-touch-icon" href="https://toffeelive.com/apple-touch-icon.png">
-  <link rel="manifest" href="/manifest.json">
-  
-  <!-- Canonical Link -->
-  <link rel="canonical" href="https://toffeelive.com/">
-  
-  <!-- Fonts -->
+  <title>TOFFEE LIVE TV— Powered by Live Stream</title>
+  <link rel="icon" type="image/x-icon" href="https://play-lh.googleusercontent.com/6f-KNzrLd72Upq7sqhMcMtZS-vCyb-21-J1Pr1kLHXbxr_dePs2O7vP7hAgMk8dxRw=w240-h480-rw">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap" rel="stylesheet">
-  
-  <!-- Video.js CSS -->
+  <meta name="google-site-verification" content="keVTh4CE7NNuJ2uokcjoiAlHfUlakVP7ThDhRKijtCc" />
+  <!-- Primary Meta Tags -->
+  <title>LIVE STREAM BD — Powered by Live Stream</title>
+  <meta name="title" content="LIVE STREAM BD — Powered by Live Stream" />
+  <meta name="description" content="Watch live tv and sports from bangladesh for free of cost..." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://livestreambd.netlify.app/" />
+  <meta property="og:title" content="LIVE STREAM BD — Powered by Live Stream" />
+  <meta property="og:description" content="Watch live tv and sports from bangladesh for free of cost..." />
+  <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://livestreambd.netlify.app/" />
+  <meta property="twitter:title" content="LIVE STREAM BD — Powered by Live Stream" />
+  <meta property="twitter:description" content="Watch live tv and sports from bangladesh for free of cost..." />
+  <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+  <!-- Include Video.js CSS -->
   <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
-  
-  <!-- Preconnect to external resources -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://vjs.zencdn.net">
-  
-  <!-- App and Browser Configuration -->
-  <meta name="application-name" content="TOFFEE LIVE TV">
-  <meta name="theme-color" content="#1a0920">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  
-  <!-- Robots and Crawling -->
-  <meta name="robots" content="index, follow">
-  
+
   <style>
-    /* [Previous CSS remains the same] */
-    /* Additional responsive adjustments */
-    @media screen and (max-width: 768px) {
-      .channel {
-        width: 45%;
-      }
-      
-      .section-title {
-        font-size: 1.5rem;
-      }
+    /* General styles */
+    body, html {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
     }
-    
-    @media screen and (max-width: 480px) {
-      .channel {
-        width: 100%;
-      }
+    .min-h-screen {
+      min-height: 100vh;
+    }
+
+    /* Header */
+    .header {
+      background-color: #1a0920;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-image {
+      height: 40px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .sign-in-btn {
+      background-color: #ff4081;
+      color: white;
+      border: none;
+      padding: 0.5rem 1.5rem;
+      border-radius: 9999px;
+      cursor: pointer;
+    }
+    .sign-in-btn:hover {
+      background-color: #f50057;
+    }
+
+    /* Content */
+    .content {
+      padding: 1rem;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+    .channels-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+    .channel {
+      width: 22%;
+      position: relative;
+      aspect-ratio: 1 / 1;
+      border-radius: 9999px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: linear-gradient(135deg, #7b1fa2, #ff4081);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+    }
+    .channel img {
+      width: 100%;
+      height: auto;
+    }
+    .channel-quality {
+      position: absolute;
+      bottom: 4px;
+      right: 4px;
+      font-size: 0.5rem;
+    }
+
+    /* Bottom Navigation */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #1a0920;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem;
+    }
+    .nav-item {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      text-align: center;
+    }
+    .nav-item:hover {
+      color: white;
+    }
+
+    /* Responsive Video Player */
+    .video-container {
+      margin: 1rem auto;
+      width: 100%;
+      max-width: 640px;
+      position: relative;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    }
+    .video-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Footer Styling */
+    .footer {
+      background-color: #1a0920;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      margin-top: auto;
+    }
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+    .footer-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .footer-section h4 {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .footer-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+    .store-links img {
+      width: 120px;
+      margin: 0.5rem;
+    }
+    .social-icons {
+      display: flex;
+      gap: 1rem;
+    }
+    .social-icons a {
+      color: white;
+      font-size: 1.5rem;
+    }
+    .social-icons a:hover {
+      color: #ff4081;
+    }
+    .copyright {
+      margin-bottom: 30px;
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.6);
     }
   </style>
 </head>
-<body>
+<body class="min-h-screen bg-black text-white">
   <!-- Header -->
   <header class="header">
     <div class="logo">
-      <img src="https://toffeelive.com/logo.svg" alt="Toffee Logo" class="logo-image">
+      <img src="https://toffeelive.com/logo.svg" alt="Toffee Logo" width="300" height="40" class="logo-image">
+    </div>
+    <div class="header-actions">
     </div>
   </header>
 
   <!-- Responsive Video Player -->
   <div class="video-container">
-    <video id="videoPlayer" class="video-js vjs-default-skin" controls preload="auto" aria-label="Live TV Player"></video>
+    <video id="videoPlayer" class="video-js vjs-default-skin" controls preload="auto"></video>
   </div>
 
-  <!-- Main Content -->
   <main class="content">
-    <h1 class="section-title">TOFFEE CHANNELS</h1>
-    <div class="channels-grid" id="channelsGrid" aria-live="polite"></div>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div style="text-align: center;">
-      <img src="https://toffeelive.com/logo.svg" alt="Toffee Logo" width="120">
-      <p>Copyright &copy; 2024 TOFFEE. All rights reserved.<br>Powered by Live Stream<br>Developed by Likhon Sheikh</p>
+    <div class="col-md-12">
+      <style>
+        .notice-movies {
+          margin-top: 3px;
+          background: #1a0920;
+          color: #F781F3;
+          position: relative;
+          padding: 10px;
+          overflow: hidden;
+          font-family: CharuChandanHardStroke;
+          border-radius: 7px;
+        }
+        .notice-movies::before {
+          content: '';
+          position: absolute;
+          border-left: 17px solid CharuChandan3D;
+          border-bottom: 17px solid CharuChandan3D;
+          border-top: 17px solid transparent;
+          border-right: 17px solid transparent;
+          left: 98px;
+          top: 0;
+          z-index: 1;
+        }
+        .notice-movies::after {
+          content: 'Notice:';
+          position: absolute;
+          height: 100%;
+          padding: 0 6px;
+          line-height: 43px;
+          background: #1C1C1C;
+          color: #FE2E64;
+          font-family: fantasy;
+          font-weight: 600;
+          left: 0;
+          top: 0;
+        }
+      </style>
+      <link>
+      <center>
+        <marquee class="notice-movies" scrollamount="5"> <font size="4vw"> টিভি চ্যানেল প্লে হতে কিছুটা সময় নিতে পারে, সেজন্য অত্যন্ত দুঃখিত । আমাদের সাথে থাকার জন্য ধন্যবাদ । </marquee>
+      </center>
     </div>
-  </footer>
+
+    <!-- Toffee Special -->
+    <section>
+      <br>
+      <br>
+      <center>
+        <h2 class="section-title">TOFFEE SPECIAL</h2>
+      </center>
+      <br>
+      <br>
+      <div class="channels-grid">
+        <!-- Toffee Channels -->
+        <div class="channels">
+          <h3 class="section-title">Toffee Channels</h3>
+          <div class="channels-grid">
+            <div class="channel" data-url="https://bdixtv24.site/toffee/live.php?id=9cc74d11cfd0&e=.m3u8">
+              <img src="https://images.toffeelive.com/images/program/19779/logo/240x240/mobile_logo_975410001725875598.png" alt="Toffee Sports">
+              <span class="channel-quality">HD</span>
+            </div>
+            <div class="channel" data-url="https://bdixtv24.site/toffee/live.php?id=b1ba8efdd99d&e=.m3u8">
+              <img src="https://images.toffeelive.com/images/program/44878/logo/240x240/mobile_logo_764950001725875605.png" alt="Toffee Drama's">
+              <span class="channel-quality">HD</span>
+            </div>
+            <!-- Add more channels here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+        </div>
+      </div>
+      <div class="footer-content">
+        <img src="https://toffeelive.com/logo.svg" alt="Toffee Logo" width="120">
+        <div>Watch Live TV Now Anytime, Anywhere on BDIPTV. মোবাইল, কম্পিউটার, ট্যাবে দেখুন লাইভ টিভি, মুভি, নাটক। সকল বাংলা এবং কলকাতার বাংলা চ্যানেল, জনপ্রিয় হিন্দি ইংলিশ ক্রিকেট ফুটবল চ্যানেল।</div>
+        <p class="copyright">Copyright © 2024 TOFFEE. All rights reserved.<br>Power By Live Stream<br><br>Developed By Likhon Sheikh</p>
+      </div>
+    </footer>
+  </main>
 
   <!-- Include Video.js JavaScript -->
   <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
   <script>
-    // Initialize the Video.js player with additional options
-    const player = videojs('videoPlayer', {
-      controlBar: {
-        children: [
-          'playToggle',
-          'volumePanel',
-          'progressControl',
-          'fullscreenToggle'
-        ]
-      },
-      responsive: true,
-      fluid: true
-    });
+    // Initialize the Video.js player
+    var player = videojs('videoPlayer');
 
-    // Load channels from tv.json with error handling and accessibility
-    fetch('tv.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then(data => {
-        const channelsGrid = document.getElementById('channelsGrid');
-
-        data.channels.forEach(channel => {
-          channel.items.forEach(item => {
-            const channelDiv = document.createElement('div');
-            channelDiv.className = 'channel';
-            channelDiv.setAttribute('data-url', item.url);
-            channelDiv.setAttribute('role', 'button');
-            channelDiv.setAttribute('tabindex', '0');
-            channelDiv.setAttribute('aria-label', `Watch ${item.name}`);
-
-            const channelImg = document.createElement('img');
-            channelImg.src = item.logo;
-            channelImg.alt = item.name;
-            channelImg.loading = 'lazy';
-
-            channelDiv.appendChild(channelImg);
-
-            // Add click and keyboard event for accessibility
-            channelDiv.addEventListener('click', () => playChannel(item));
-            channelDiv.addEventListener('keydown', (e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                playChannel(item);
-              }
-            });
-
-            channelsGrid.appendChild(channelDiv);
-          });
-        });
-      })
-      .catch(error => {
-        console.error('Error loading tv.json:', error);
-        const channelsGrid = document.getElementById('channelsGrid');
-        const errorMsg = document.createElement('p');
-        errorMsg.textContent = 'Unable to load channels. Please try again later.';
-        errorMsg.style.color = 'red';
-        channelsGrid.appendChild(errorMsg);
-      });
-
-    // Separate function for playing a channel for reusability
-    function playChannel(item) {
+    // Function to load and play the m3u8 URL
+    function loadVideo(url) {
       player.src({
-        src: item.url,
+        src: url,
         type: 'application/x-mpegURL'
       });
       player.play();
-      
-      // Optional: Scroll to video player
-      document.getElementById('videoPlayer').scrollIntoView({ behavior: 'smooth' });
     }
-  </script>
 
-  <!-- Additional Performance Optimization -->
-  <script>
-    // Defer non-critical resources
-    window.addEventListener('load', () => {
-      // You can add additional non-critical loading here
+    // Event listener for each channel
+    document.querySelectorAll('.channel').forEach(channel => {
+      channel.addEventListener('click', () => {
+        const url = channel.getAttribute('data-url');
+        loadVideo(url);
+      });
     });
   </script>
 </body>
