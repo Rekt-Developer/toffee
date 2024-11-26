@@ -1,0 +1,110 @@
+{
+  "channels": [
+    {
+      "section": "Toffee Channels",
+      "items": [
+        {
+          "name": "Toffee Sports",
+          "url": "https://bdixtv24.site/toffee/live.php?id=9cc74d11cfd0&e=.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/19779/logo/240x240/mobile_logo_975410001725875598.png"
+        },
+        {
+          "name": "Toffee Drama's",
+          "url": "https://bdixtv24.site/toffee/live.php?id=b1ba8efdd99d&e=.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/44878/logo/240x240/mobile_logo_764950001725875605.png"
+        },
+        {
+          "name": "Toffee Movie's",
+          "url": "https://bdixtv24.site/toffee/live.php?id=99cf56ce2888&e=.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/2708/logo/240x240/mobile_logo_724353001725875591.png"
+        }
+      ]
+    },
+    {
+      "section": "Bangladeshi Channels",
+      "items": [
+        {
+          "name": "B TV",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/btvnational1.stream/playlist.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb7QvpNrd2INV2mEu9xmdVtIXUNVNlDIcahA&usqp=CAU"
+        },
+        {
+          "name": "B TV World",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/btvbd-office-sg.stream/playlist.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/1/logo/240x240/mobile_logo_310000001673183767.png"
+        },
+        {
+          "name": "BTV Chittagong",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/btvnational-ctg.stream/playlist.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCja5QD265KY9EXBT5pEFD-DLBuexB-T68Olr8aHLrzvGzCT4yjU1PyjW7TJMfJIGgj0&usqp=CAU"
+        },
+        {
+          "name": "ATN Bangla",
+          "url": "http://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/38/logo/240x240/mobile_logo_483871001656610198.png"
+        },
+        {
+          "name": "ATN Bangla UK",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/live-orgin/atnbanglauk-off.stream/chunks.m3u8",
+          "logo": "https://www.jagobd.com/wp-content/uploads/2017/01/atnbanglauk11.jpg?x67896"
+        },
+        {
+          "name": "ATN News",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/42/logo/240x240/mobile_logo_554709001657185722.png"
+        },
+        {
+          "name": "ATN Islamic",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnislamictv.stream/live-orgin/atnislamictv.stream/chunks.m3u8?nimblesessionid=493260836",
+          "logo": "https://i.ibb.co/CQ0JWPQ/20240803-172457.png"
+        },
+        {
+          "name": "Asian TV",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/playlist.m3u8",
+          "logo": "https://www.jagobd.com/wp-content/uploads/2015/12/asiantv.jpg?x67896"
+        },
+        {
+          "name": "Nagorik TV",
+          "url": "https://edge01.iptv.digijadoo.net/live/nagorik_tv/playlist.m3u8?md5=1UiUnyKuYqfZeA6vsyZ55A&expires=1732132415&user=8333f5cef8e441a0abd75ae8344d39d7",
+          "logo": "https://edge01.iptv.digijadoo.net/static/nagorik_tv.png"
+        },
+        {
+          "name": "Jamuna",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/jamuna-test-sample-ok.stream/playlist.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/46/logo/240x240/mobile_logo_222968001673182917.png"
+        },
+        {
+          "name": "G TV",
+          "url": "http://bapatv.live:8080/gtv/tracks-v1a1/mono.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUbugKXrnnrbxbUjiDRQDE0Pl8cCSxfnt1a3Y6IEmXbqNozYPMucRt8wdTzQWGGSjLEAQ&usqp=CAU"
+        },
+        {
+          "name": "SRK TV",
+          "url": "https://cdn.ncare.live/flixhls/flixsrktv.stream/playlist.m3u8",
+          "logo": "https://www.shutterstock.com/image-vector/srk-letter-logo-design-white-260nw-2345229549.jpg"
+        },
+        {
+          "name": "Ekhon",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/playlist.m3u8",
+          "logo": "https://yt3.googleusercontent.com/X8QfZ4BYslnM3433FPXkEV2ncYWUnsmZSRDFafcoApy5OZQrkOYqkSvCTaaOJE5AQgpTuF8I7sM=s176-c-k-c0x00ffffff-no-rj-mo"
+        },
+        {
+          "name": "Bangla Vision",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/banglav000.stream/playlist.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/337/logo/240x240/mobile_logo_519481001656610377.png"
+        },
+        {
+          "name": "Somoy TV",
+          "url": "https://app.ncare.live/live-orgin/somoyt000011226615544544.stream/playlist.m3u8",
+          "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1719926324363.png"
+        },
+        {
+          "name": "Channel 9",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/9/logo/240x240/mobile_logo_363996001656610763.png"
+        },
+        {
+          "name": "Channel 24",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channel24-sg-e8e.stream/playlist.m3u8",
+          "logo": "https://images.toffeelive.com/images/program/52/logo/240x240/mobile_logo_262737001655890931.png"
+        }
